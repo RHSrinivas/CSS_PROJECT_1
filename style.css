@@ -1,0 +1,85 @@
+body {
+  padding: 10px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  float: left;
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+li:hover {
+  text-decoration: underline black;
+  font-size: 20px;
+}
+body {
+  font-family: "Orbitron", sans-serif;
+}
+
+.navbar-container,
+.button-group,
+.nav-button {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+.nav-button {
+  width: 100px;
+  margin-top: 15px;
+  border-radius: 8px;
+  height: 25px;
+  text-shadow: lightslategray;
+  display: block;
+  cursor: auto;
+}
+
+.globe {
+  position: relative;
+  left: 900px;
+}
+.square {
+  position: absolute;
+  top: 600px;
+  left: 210px;
+}
+.star {
+  position: relative;
+  left: 800px;
+  top: 730px;
+}
+.hero-container-right {
+  position: absolute;
+  left: 800px;
+  top: 600px;
+  text-align: center;
+}
+svg {
+  height: 20px;
+  margin-top: 17px;
+}
+button {
+  text-align: block;
+}
+h1 {
+  font-size: 80px;
+  text-align: center;
+  display: block;
+}
+.hero-description {
+  text-align: center;
+  text-indent: 100px;
+}
+.button-email,
+.button-join {
+  font-family: "Orbitron", sans-serif;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: white;
+}
+.button-join {
+  background-color: black;
+  color: white;
+}
